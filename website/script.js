@@ -1,5 +1,6 @@
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
+    let container = document.querySelectorAll(".container reveal");
 
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
